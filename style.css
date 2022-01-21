@@ -1,0 +1,90 @@
+.navbar-brand img{
+	height: 60px;
+}
+
+.nav-link{
+	text-transform: uppercase;
+}
+
+.nav-link:hover{
+	color: blue !important;
+	border-top: blue 1px solid;
+}
+
+.navbar-nav a{
+	transition: all 0.5s ease !important;
+}
+
+.navbar-nav a:hover{
+	padding: 15px;
+}
+
+
+#aboutus p{
+	text-align: justify;
+}
+
+.carousel-item{
+	height: 550px;
+	background-size: cover;
+	background-position: center;
+	background: black;
+	color: white;
+}
+
+.overlay-image{
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	opacity: .5;
+}
+
+.map-responsive{
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0; 
+}
+
+.map-responsive iframe{
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.quick-link li a{
+	color: white;
+	text-decoration: none;
+}
+
+.quick-link li a:hover{
+	color: indigo;
+}
+
+.fab{
+	color: grey;
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+	padding: 5px;
+	font-size: 40px;
+}
+
+.fab:hover{
+	color: #fff;
+}
+
+.footer-icon a{
+	text-decoration: none;
+
+}
